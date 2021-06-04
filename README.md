@@ -9,6 +9,9 @@ Repository documenting [fMRIPrep](https://fmriprep.org/en/stable/) usage within 
 2) Run mriqc on each subject, when done, run mriqc group.
 ` ./scripts/1_run_mriqc_session.sh 001C`
 
+
+
+
 Singularity basic commands:
  shell
  exec 
