@@ -10,7 +10,8 @@ Repository documenting [fMRIPrep](https://fmriprep.org/en/stable/) usage within 
 ` ./scripts/1_run_mriqc_session.sh 001C`
 `./scripts/2_run_mriqc_group.sh`
 
-3) 
+3) Run fmriprep on each subject (~10hrs with 5xCPU,4xCores,12GB mem)
+`./scripts/3_run_fmriprep_session.sh 001C`
 
 
 
