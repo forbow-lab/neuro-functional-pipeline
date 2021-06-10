@@ -4,7 +4,7 @@ Repository documenting [fMRIPrep](https://fmriprep.org/en/stable/) usage within 
 
 
 1) Create a BIDS dataset for all subjects/sessions within a given project. Ideally, all subjects matching sequences with matching parameters. Each anat sequence should be defaced, and notes to this effect should exist in the readme.txt at project level.
-`./scripts/0_setup_bids.sh`
+[`./scripts/0_setup_bids.sh`](https://github.com/forbow-lab/neuro-functional-pipeline/blob/main/scripts/0_setup_bids.sh)
 
 2) Run mriqc on each subject. Once all subjects are completed, run mriqc group (without SSIDS, it runs on the whole set automatically).
 ` ./scripts/1_run_mriqc_session.sh 001C`
