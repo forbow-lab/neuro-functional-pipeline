@@ -13,10 +13,15 @@ Repository documenting [fMRIPrep](https://fmriprep.org/en/stable/) usage within 
 3) Run fmriprep on each subject (~10hrs with 5xCPU,4xCores,12GB mem)
 `./scripts/3_run_fmriprep_session.sh 001C`
 
-
+---
 
 
 Singularity basic commands:
  shell
  exec 
  run
+
+---
+
+# Running jobs on Compute Canada
+
