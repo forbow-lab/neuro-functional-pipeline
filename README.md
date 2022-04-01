@@ -25,3 +25,4 @@ Singularity basic commands:
 
 # Running jobs on Compute Canada
 
+1) test, test
