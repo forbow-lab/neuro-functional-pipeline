@@ -25,4 +25,7 @@ Singularity basic commands:
 
 # Running jobs on Compute Canada
 
-1) test, test
+1) currently re-writing code to be a single master script that will:
+    a. upload a single-dataset raw-bids (given project, site, ssid)
+    b. run/monitor/re-run fmriprep with doubled cpu/ram/time options if failed due to time-out
+    c. download fmriprep results
